@@ -161,7 +161,7 @@ public class GDriveLoader extends AppCompatActivity {
                     "application/x-sqlite3", vsSourceGDriveFolder, vbRenameExistingFile, aOverwrittenFile)
                     .addOnSuccessListener(new OnSuccessListener<Void>() {
                         @Override
-                        public void onSuccess(Void aVoid) {
+                        public void onSuccess(Void aVoid) { 
                             /*
                             ((Button) findViewById(R.id.create_text_file)).setEnabled(true);
                             popupMessage(CommonUtil.getLocaleStringResource(R.string.prompt_title_upload_gdrive, getApplicationContext()),
